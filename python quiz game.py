@@ -1,0 +1,80 @@
+name=input("What is good name dear:")
+game=input("Do wonna play Quiz Game: ")
+if game=="yes":
+    print("Lets begin the game")
+    print("Quest 1. How many player in football?")
+    a=print("a.11")
+    b=print("b.12")
+    c=print("c.13")
+    d=print("d.14")
+    choose=input("Ans:")
+    if (choose=="a"):
+        print("Your ans is correct")
+        t=(0+10)
+        print("you score is ",t)
+        
+    else:
+        t=(0-10)
+        print("you score is",t)
+        print("bad luck")
+        
+    print("Quest 2. How many ball use in football? ")
+    a=print("a.5")
+    b=print("b.4")
+    c=print("c.2")
+    d=print("d.1")
+    choose=input("Ans:")
+    if (choose=="d"):
+        print("Your ans is correct")
+        t=(t+10)
+        print("you score is ",t)
+    else:
+        t=(t-10)
+        print("you score is",t)
+        print("bad luck")
+    print("Quest 3. How many coach in football?")
+    a=print("a.1")
+    b=print("b.2")
+    c=print("c.3")
+    d=print("d.4")
+    choose=input("Ans:")
+    if (choose=="b"):
+        print("Your ans is correct")
+        t=(t+10)
+        print("you score is ",t)
+    else:
+        t=(t-10)
+        print("you score is",t)
+        print("bad luck")
+    print("Quest 4. What is national game of India?")
+    a=print("a.Bat ball")
+    b=print("b.Foot ball")
+    c=print("c.Hockey")
+    d=print("d.sleeping")
+    choose=input("Ans:")
+    if (choose=="c"):
+        print("Your ans is correct")
+        t=(t+10)
+        print("you score is ",t)
+    else:
+        t=(t-10)
+        print("you score is",t)
+        print("bad luck")
+    print("Quest 5. Who is best player in football  ")
+    a=print("a.Sanchit")
+    b=print("b.Shushmita")
+    c=print("c.Anuj")
+    d=print("d.Sumit")
+    choose=input("Ans:")
+    if (choose=="a"):
+        print("Your ans is correct")
+        t=(t+10)
+        print("you score is ",t)
+    else:
+        t=(t-10)
+        print("you score is",t)
+        print("bad luck")
+    print(t)
+               
+else:
+    print("bye bye")
