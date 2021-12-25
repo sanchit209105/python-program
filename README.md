@@ -1,2 +1,3 @@
-# python-program
-quiz game of python
+# python quiz game of python
+
+
