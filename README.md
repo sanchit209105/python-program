@@ -1,3 +1,3 @@
-# Quiz game of python
+# Quiz game in python
 
 
